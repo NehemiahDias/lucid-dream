@@ -10,6 +10,7 @@ import UserProfileComponent from "./components/signInComponents/UserProfileCompo
 import ProtectedRoute from "./components/signInComponents/ProtectedRoute";
 import Forum from "./components/forumComponents/Forum";
 import ForgotPassword from "./components/signInComponents/ForgotPassword";
+import RealityCheck from "./components/realityCheckComponents/RealityCheck";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='signup' element={<SignUpComponent/>}/>
           <Route path='forum' element={<Forum />}/>
           <Route path='signin' element={<SignInComponent/>}/>
+          <Route path='reality-check' element={<RealityCheck />}/>
           <Route path='password-reset' element={<ForgotPassword />} />
         </Routes>
         <FooterComponent/>

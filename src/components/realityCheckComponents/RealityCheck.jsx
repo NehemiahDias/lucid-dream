@@ -9,7 +9,15 @@ const RealityCheck = () => {
       <div>
         <form className='reality-check-form' onSubmit={e => e.preventDefault()}>
           <label htmlFor='time'>How often:</label>
-          <input id='time' type='number' />
+          <input 
+            id='time' 
+            type='number' 
+            step='.1'
+          />
+          <select>
+            <option>Hour(s)</option>
+            <option>Minute(s)</option>
+          </select>
           <button type='submit'>+ Create Reality Check</button>
         </form>
       </div>

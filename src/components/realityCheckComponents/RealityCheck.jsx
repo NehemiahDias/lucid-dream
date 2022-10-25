@@ -15,8 +15,8 @@ const RealityCheck = () => {
             step='.1'
           />
           <select>
-            <option>Hour(s)</option>
-            <option>Minute(s)</option>
+            <option value='hours'>Hour(s)</option>
+            <option value='minutes'>Minute(s)</option>
           </select>
           <button type='submit'>+ Create Reality Check</button>
         </form>
